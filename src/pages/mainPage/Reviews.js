@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from '../styles/Reviews.module.css'
-import border from '../images/reviewsBorder.svg'
-import pencil from '../images/ручка.svg'
-import avatar from '../images/avatar.svg'
+import styles from './Reviews.module.css'
+import border from '../../images/reviewsBorder.svg'
+import pencil from '../../images/ручка.svg'
+import avatar from '../../images/avatar.svg'
 
 const Reviews = () => {
     return (

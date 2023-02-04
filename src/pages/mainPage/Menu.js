@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from "../styles/Menu.module.css";
-import img from '../images/Vector 1.svg'
-import pizza from '../images/pizza1.svg'
-import pizza2 from '../images/pizza2.svg'
-import pizza3 from '../images/pizza3.svg'
-import pizza4 from '../images/pizza4.svg'
-import pizza5 from '../images/pizza5.svg'
-import pizza6 from '../images/pizza6.svg'
-import pizza8 from '../images/pizza8.svg'
+import styles from "./Menu.module.css";
+import img from '../../images/Vector 1.svg'
+import pizza from '../../images/pizza1.svg'
+import pizza2 from '../../images/pizza2.svg'
+import pizza3 from '../../images/pizza3.svg'
+import pizza4 from '../../images/pizza4.svg'
+import pizza5 from '../../images/pizza5.svg'
+import pizza6 from '../../images/pizza6.svg'
+import pizza8 from '../../images/pizza8.svg'
 
 
 const Menu = () => {
@@ -42,8 +42,8 @@ const Menu = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.menuCardContentPrice}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.menuCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.menuCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.menuCard2}>
@@ -56,8 +56,8 @@ const Menu = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.menuCardContentPrice2}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.menuCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.menuCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.menuCard3}>
@@ -70,8 +70,8 @@ const Menu = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.menuCardContentPrice3}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.menuCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.menuCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.menuCard4}>
@@ -84,8 +84,8 @@ const Menu = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.menuCardContentPrice4}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.menuCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.menuCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.menuCard5}>
@@ -98,8 +98,8 @@ const Menu = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.menuCardContentPrice5}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.menuCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.menuCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.menuCard6}>
@@ -112,8 +112,8 @@ const Menu = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.menuCardContentPrice6}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.menuCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.menuCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.menuCard7}>
@@ -126,8 +126,8 @@ const Menu = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.menuCardContentPrice7}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.menuCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.menuCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.menuCard8}>
@@ -140,8 +140,8 @@ const Menu = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.menuCardContentPrice8}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.menuCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.menuCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <button className={styles.menuBtn}>ПОКАЗАТЬ ЕЩЕ</button>

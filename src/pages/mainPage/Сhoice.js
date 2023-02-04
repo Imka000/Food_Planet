@@ -1,9 +1,9 @@
 import React from 'react';
-import truck from '../images/gruzovik.svg'
-import product from '../images/product.svg'
-import uniqueMenu from '../images/menu.svg'
-import delivery from '../images/delivery.svg'
-import styles from '../styles/Choice.module.css'
+import truck from '../../images/gruzovik.svg'
+import product from '../../images/product.svg'
+import uniqueMenu from '../../images/menu.svg'
+import delivery from '../../images/delivery.svg'
+import styles from './Choice.module.css'
 
 const Сhoice = () => {
     return (

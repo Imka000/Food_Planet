@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from '../styles/Footer.module.css'
-import logo from '../images/logoFooter.svg'
-import phone from '../images/phoneFooter.svg'
+import styles from './FooterCart.module.css'
+import logo from "../../images/logoFooter.svg";
+import phone from "../../images/phoneFooter.svg";
 
-const Footer = () => {
+const FooterCart = () => {
     return (
         <>
-            <footer>
-                <img className={styles.logoImg} src={logo}/>
-                <div className={styles.navFooter}>
-                    <ul className={styles.ulFooter}>
+            <footer className={styles.footerCart}>
+                <img className={styles.logoImgCart} src={logo}/>
+                <div className={styles.navFooterCart}>
+                    <ul className={styles.ulFooterCart}>
                         <li><a href="#">Главная</a></li>
                         <li><a href="#">Меню</a></li>
                         <li><a href="#">Доставка</a></li>
@@ -22,4 +22,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default FooterCart;

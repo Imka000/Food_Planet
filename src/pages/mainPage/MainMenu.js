@@ -1,7 +1,7 @@
 import React from 'react';
-import btnImg from '../images/mainStrelka.svg'
-import styles from '../styles/MainMenu.module.css'
-import burger from '../images/бургер.svg'
+import btnImg from '../../images/mainStrelka.svg'
+import styles from './MainMenu.module.css'
+import burger from '../../images/бургер.svg'
 
 const MainMenu = () => {
     return (

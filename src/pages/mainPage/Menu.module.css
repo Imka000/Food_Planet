@@ -143,7 +143,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #000000;
@@ -152,7 +152,17 @@
     padding-left: 6px;
 }
 
-.menuCardContent button{
+.menuCardContentBtn{
+    border: none;
+    background-color: transparent;
+    color:  #FF583E;
+    position: absolute;
+    top: 260px;
+    left: 93px;
+    font-size: 32px;
+}
+
+.menuCardContentCart{
     width: 200px;
     height: 48.3px;
     left: 32px;
@@ -256,30 +266,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #000000;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.menuCardContent2 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .menuCard3 img{
@@ -369,30 +362,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #000000;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.menuCardContent3 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .menuCard4 img{
@@ -482,30 +458,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #000000;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.menuCardContent4 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .menuCard5 img{
@@ -595,30 +554,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #000000;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.menuCardContent5 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .menuCard6 img{
@@ -708,30 +650,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #000000;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.menuCardContent6 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .menuCard7 img{
@@ -821,30 +746,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #000000;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.menuCardContent7 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .menuCard8 img{
@@ -934,30 +842,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #000000;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.menuCardContent8 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .menuBtn{
@@ -978,5 +869,4 @@
     text-align: center;
     text-transform: uppercase;
     color: #FF583E;
-
 }

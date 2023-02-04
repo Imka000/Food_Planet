@@ -1,23 +1,21 @@
 import React from 'react';
-import Header from "./components/Header";
-import MainMenu from "./components/MainMenu";
-import Novelties from "./components/Novelties";
-import Menu from "./components/Menu";
-import Сhoice from "./components/Сhoice";
-import Reviews from "./components/Reviews";
-import Footer from "./components/Footer";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import MainPage from "./pages/mainPage/MainPage";
+import Cart from "./pages/cartPage/Cart";
+import Order from "./pages/orderPage/Order";
+import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
+import './global.css'
 
 const App = () => {
     return (
-        <>
-          <Header/>
-          <MainMenu/>
-          <Novelties/>
-          <Menu/>
-          <Сhoice/>
-          <Reviews/>
-          <Footer/>
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<MainPage/>}/>
+                <Route path="/cart" element={<Cart/>}/>
+                <Route path="/order" element={<Order/>}/>
+                <Route path="*" element={<NotFoundPage/>}/>
+            </Routes>
+        </BrowserRouter>
     );
 };
 

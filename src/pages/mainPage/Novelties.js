@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from '../styles/Novelties.module.css'
-import cheesburger1 from '../images/Tofu-Burger-PNG-Image 2.svg'
-import cheesburger2 from '../images/ches2.svg'
-import cheesburger3 from '../images/chees3.svg'
-import cheesburger4 from '../images/chees4.svg'
+import styles from './Novelties.module.css'
+import cheesburger1 from '../../images/Tofu-Burger-PNG-Image 2.svg'
+import cheesburger2 from '../../images/ches2.svg'
+import cheesburger3 from '../../images/chees3.svg'
+import cheesburger4 from '../../images/chees4.svg'
 
 const Novelties = () => {
     return (
@@ -30,8 +30,8 @@ const Novelties = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.noveltiesCardContentPrice}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.noveltiesCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.noveltiesCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.noveltiesCard2}>
@@ -43,8 +43,8 @@ const Novelties = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.noveltiesCardContentPrice2}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.noveltiesCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.noveltiesCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.noveltiesCard3}>
@@ -56,8 +56,8 @@ const Novelties = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.noveltiesCardContentPrice3}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.noveltiesCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.noveltiesCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
                 <div className={styles.noveltiesCard4}>
@@ -69,8 +69,8 @@ const Novelties = () => {
                             соус чесночный, соус гриль,
                             кетчуп, майонез</p>
                         <p className={styles.noveltiesCardContentPrice4}>200 сом</p><br/>
-                        <span>&#8722; <b>1</b> &#43;</span><br/>
-                        <button>В КОРЗИНУ</button>
+                        <button className={styles.noveltiesCardContentBtn}>&#8722; <b>1</b> &#43;</button>
+                        <button className={styles.noveltiesCardContentCart}>В КОРЗИНУ</button>
                     </div>
                 </div>
             </div>

@@ -112,7 +112,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
@@ -121,7 +121,17 @@
     padding-left: 6px;
 }
 
-.noveltiesCardContent button{
+.noveltiesCardContentBtn{
+    border: none;
+    background-color: transparent;
+    color:  #FF583E;
+    position: absolute;
+    top: 260px;
+    left: 93px;
+    font-size: 32px;
+}
+
+.noveltiesCardContentCart{
     width: 200px;
     height: 48.3px;
     left: 32px;
@@ -216,30 +226,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.noveltiesCardContent2 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .noveltiesCard3 img{
@@ -320,30 +313,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.noveltiesCardContent3 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .noveltiesCard2 img{
@@ -424,30 +400,13 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.noveltiesCardContent2 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
 
 .noveltiesCard4 img{
@@ -528,28 +487,11 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
     position: relative;
     bottom: 6px;
     padding-left: 6px;
-}
-
-.noveltiesCardContent4 button{
-    width: 200px;
-    height: 48.3px;
-    left: 32px;
-    background: #FF583E;
-    border-radius: 40px;
-    border: 1px solid #FF583E;
-    position: absolute;
-    top: 300px;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
 }
