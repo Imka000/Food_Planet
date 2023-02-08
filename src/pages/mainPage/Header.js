@@ -10,16 +10,14 @@ const Header = () => {
     return (
         <>
             <header className={style.header}>
-                <div className={style.logoImg}>
-                    <img src={logo} alt=""/>
-                </div>
                 <nav className={style.navMenu}>
                     <ul className={style.ulMenu}>
+                        <img src={logo} className={style.logoImg}/>
                         <li className={style.liMenu}>
                             <NavLink to="/">Главная</NavLink>
                         </li>
                         <li className={style.liMenu}>
-                            <NavLink to="/">Меню</NavLink> <img src={img} alt=""/>
+                            <NavLink to="/">Меню <img src={img}/></NavLink>
                         </li>
                         <li className={style.liMenu}>
                             <NavLink to="/">Доставка</NavLink>

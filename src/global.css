@@ -1,3 +1,11 @@
 button{
     cursor: pointer;
 }
+
+.container-card{
+    display: flex;
+    margin: 0 auto;
+    gap: 32px;
+    max-width: 1100px;
+    margin-bottom: 50px;
+}

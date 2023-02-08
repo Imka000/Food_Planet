@@ -4,6 +4,22 @@ import cheesburger1 from '../../images/Tofu-Burger-PNG-Image 2.svg'
 import cheesburger2 from '../../images/ches2.svg'
 import cheesburger3 from '../../images/chees3.svg'
 import cheesburger4 from '../../images/chees4.svg'
+import noveltiesCard from "../../data/noveliesCard/noveltiesCard";
+
+const NoveltiesCard = (props) => {
+    return(
+            <div className={styles.noveltiesCard}>
+                <div className={styles.noveltiesCardContent}>
+                    <img src={props.img}/>
+                    <h3>{props.name}</h3>
+                    <p className={styles.noveltiesCardDesc}>{props.desc}</p>
+                    <p className={styles.noveltiesCardPrice}>{props.price}</p><br/>
+                    <button className={styles.noveltiesCardBtn}>&#8722;</button> <b>1</b> <button className={styles.noveltiesCardBtn}>&#43;</button>
+                    <button className={styles.noveltiesCardCart}>В КОРЗИНУ</button>
+                </div>
+            </div>
+    )
+}
 
 const Novelties = () => {
     return (
@@ -21,58 +37,20 @@ const Novelties = () => {
                         <li><a href="#">Напитки</a></li>
                     </ul>
                 </div>
-                <div className={styles.noveltiesCard1}>
-                    <img src={cheesburger1}/>
-                    <div className={styles.noveltiesCardContent}>
-                        <h3>Чизбургер</h3>
-                        <p className={styles.noveltiesCardContentDesc}>Булка, котлета,сыр, соленый огурец, лук, помидор,
-                            салат айсберг,
-                            соус чесночный, соус гриль,
-                            кетчуп, майонез</p>
-                        <p className={styles.noveltiesCardContentPrice}>200 сом</p><br/>
-                        <button className={styles.noveltiesCardContentBtn}>&#8722; <b>1</b> &#43;</button>
-                        <button className={styles.noveltiesCardContentCart}>В КОРЗИНУ</button>
-                    </div>
-                </div>
-                <div className={styles.noveltiesCard2}>
-                    <img src={cheesburger2}/>
-                    <div className={styles.noveltiesCardContent2}>
-                        <h3>Чизбургер</h3>
-                        <p className={styles.noveltiesCardContentDesc2}>Булка, котлета,сыр, соленый огурец, лук, помидор,
-                            салат айсберг,
-                            соус чесночный, соус гриль,
-                            кетчуп, майонез</p>
-                        <p className={styles.noveltiesCardContentPrice2}>200 сом</p><br/>
-                        <button className={styles.noveltiesCardContentBtn}>&#8722; <b>1</b> &#43;</button>
-                        <button className={styles.noveltiesCardContentCart}>В КОРЗИНУ</button>
-                    </div>
-                </div>
-                <div className={styles.noveltiesCard3}>
-                    <img src={cheesburger3}/>
-                    <div className={styles.noveltiesCardContent3}>
-                        <h3>Чизбургер</h3>
-                        <p className={styles.noveltiesCardContentDesc3}>Булка, котлета,сыр, соленый огурец, лук, помидор,
-                            салат айсберг,
-                            соус чесночный, соус гриль,
-                            кетчуп, майонез</p>
-                        <p className={styles.noveltiesCardContentPrice3}>200 сом</p><br/>
-                        <button className={styles.noveltiesCardContentBtn}>&#8722; <b>1</b> &#43;</button>
-                        <button className={styles.noveltiesCardContentCart}>В КОРЗИНУ</button>
-                    </div>
-                </div>
-                <div className={styles.noveltiesCard4}>
-                    <img src={cheesburger4}/>
-                    <div className={styles.noveltiesCardContent4}>
-                        <h3>Чизбургер</h3>
-                        <p className={styles.noveltiesCardContentDesc4}>Булка, котлета,сыр, соленый огурец, лук, помидор,
-                            салат айсберг,
-                            соус чесночный, соус гриль,
-                            кетчуп, майонез</p>
-                        <p className={styles.noveltiesCardContentPrice4}>200 сом</p><br/>
-                        <button className={styles.noveltiesCardContentBtn}>&#8722; <b>1</b> &#43;</button>
-                        <button className={styles.noveltiesCardContentCart}>В КОРЗИНУ</button>
-                    </div>
-                </div>
+            </div>
+            <div className='container-card'>
+            {
+                noveltiesCard.map((item,index) =>{
+                    return(
+                        <NoveltiesCard
+                            key={index}
+                            img={item.img}
+                            name={item.name}
+                            desc={item.desc}
+                            price={item.price}
+                        />
+                    )}
+                )}
             </div>
         </>
     );

@@ -1,39 +1,23 @@
 .header{
-    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .logoImg{
-    position: absolute;
-    width: 224px;
-    height: 40px;
-    left: 200px;
-    top: 24px;
-}
-
-.navMenu{
     display: flex;
-    padding-left: 560px;
+    margin-right: 100px;
 }
 
 .navMenu ul{
     gap: 60px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
-.ulMenu{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
+    font: normal 600 16px 'Roboto';
     line-height: 19px;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-}
-
-.li{
-    color: #FF583E;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
 }
 
 a{
@@ -49,6 +33,5 @@ a:hover{
 }
 
 .linkHeader{
-    /*padding: 32px 5px;*/
     color: #FF583E;
 }

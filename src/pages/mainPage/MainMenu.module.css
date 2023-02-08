@@ -4,42 +4,26 @@
 }
 
 .mainDesc{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 42px;
+    font: normal 900 36px 'Roboto';
     display: flex;
     align-items: center;
     color: #254F4C;
-    padding: 50px 997px 0px 200px;
+    padding: 70px 897px 0px 220px;
 }
 
 .desc{
-    position: absolute;
-    width: 416px;
-    height: 48px;
-    left: 203px;
-    top: 335px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    padding: 0px 897px 0px 220px;
+    font: normal 400 16px 'Roboto';
 }
 
 .mainBtn{
     border-color: #FF583E;
     background: #FF583E;
     border-radius: 100px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    position: absolute;
+    font: normal 700 14px 'Roboto';
     width: 216px;
     height: 49px;
-    left: 200px;
-    top: 415px;
+    margin-left: 210px;
     text-transform: uppercase;
     color: #FFFFFF;
     border: 1px solid #FF583E;
