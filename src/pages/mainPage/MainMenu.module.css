@@ -1,19 +1,31 @@
 .mainMenu{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.about_us{
+    margin-top: 50px;
 }
 
 .mainDesc{
     font: normal 900 36px 'Roboto';
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #254F4C;
-    padding: 70px 897px 0px 220px;
+    max-width: 400px;
 }
 
 .desc{
-    padding: 0px 897px 0px 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font: normal 400 16px 'Roboto';
+    max-width: 500px;
 }
 
 .mainBtn{
@@ -23,7 +35,6 @@
     font: normal 700 14px 'Roboto';
     width: 216px;
     height: 49px;
-    margin-left: 210px;
     text-transform: uppercase;
     color: #FFFFFF;
     border: 1px solid #FF583E;
@@ -34,10 +45,7 @@
 }
 
 .mainImg{
-    position: absolute;
-    width: 659px;
-    height: 455px;
-    left: 741px;
-    top: 112px;
+   display: flex;
+    justify-content: center;
 }
 

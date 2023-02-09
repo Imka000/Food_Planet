@@ -4,7 +4,7 @@ import MainPage from "./pages/mainPage/MainPage";
 import Cart from "./pages/cartPage/Cart";
 import Order from "./pages/orderPage/Order";
 import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
-import './global.css'
+import './global.css';
 
 const App = () => {
     return (
