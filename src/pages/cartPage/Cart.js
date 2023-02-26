@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from "../mainPage/Header";
 import CartContent from "./CartContent";
-import FooterCart from "./FooterCart";
+import Footer from "../mainPage/Footer";
+import {BrowserRouter} from "react-router-dom";
 
 const Cart = () => {
     return (
         <>
-          <Header/>
-          <CartContent/>
-          <FooterCart/>
+            <Header/>
+            <CartContent/>
+            <Footer/>
         </>
     );
 };

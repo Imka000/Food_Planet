@@ -1,10 +1,14 @@
 import React from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import MainPage from "./pages/mainPage/MainPage";
 import Cart from "./pages/cartPage/Cart";
 import Order from "./pages/orderPage/Order";
 import NotFoundPage from "./pages/notFoundPage/NotFoundPage";
 import './global.css';
+import Header from "./pages/mainPage/Header";
+import Footer from "./pages/mainPage/Footer";
+
 
 const App = () => {
     return (

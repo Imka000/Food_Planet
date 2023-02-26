@@ -1,11 +1,53 @@
-button{
+button {
     cursor: pointer;
 }
 
-.container-card{
+*,
+*::before,
+*::after {
+    box-sizing: unset;
+}
+
+label{
+    display: unset;
+}
+
+.btn-light {
+    background-color: transparent;
+    border-color: transparent;
+    font: normal 600 16px 'Roboto';
+}
+
+.show > .btn-light.dropdown-toggle {
+    font: normal 600 16px 'Roboto';
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-light:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media screen and (min-width: 1240px) {
+    body {
+        min-width: 1240px
+    }
+}
+
+.global-container-cardProduct {
     display: flex;
     margin: 0 auto;
+    justify-content: center;
     gap: 32px;
     max-width: 1100px;
     margin-bottom: 50px;
+}
+
+.active {
+    color: #FF583E;
+}
+
+.bckgrnd-drpdwn {
+    background-color: transparent;
 }

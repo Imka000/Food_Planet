@@ -6,6 +6,7 @@ import Menu from "./Menu";
 import Сhoice from "./Сhoice";
 import Reviews from "./Reviews";
 import Footer from "./Footer";
+import {BrowserRouter} from "react-router-dom";
 
 const MainPage = () => {
     return (

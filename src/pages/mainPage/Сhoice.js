@@ -18,7 +18,7 @@ const Сhoice = () => {
         <>
             <div className={styles.choiceBlock}>
                 <h2>Почему выбирают нас:</h2>
-                <div className='container-card'>
+                <div className='global-container-cardProduct'>
                     {
                         choiceCard.map((item,index) => {
                             return(

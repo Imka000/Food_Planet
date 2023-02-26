@@ -8,8 +8,8 @@ import noveltiesCard from "../../data/noveliesCard/noveltiesCard";
 
 const NoveltiesCard = (props) => {
     return(
-            <div className={styles.noveltiesCard}>
-                <div className={styles.noveltiesCardContent}>
+            <div className={styles.noveltiesCardFoodProduct}>
+                <div className={styles.noveltiesCardContentProduct}>
                     <img src={props.img}/>
                     <h3>{props.name}</h3>
                     <p className={styles.noveltiesCardDesc}>{props.desc}</p>
@@ -38,7 +38,7 @@ const Novelties = () => {
                     </ul>
                 </div>
             </div>
-            <div className='container-card'>
+            <div className='global-container-cardProduct'>
             {
                 noveltiesCard.map((item,index) =>{
                     return(

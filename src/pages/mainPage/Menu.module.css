@@ -26,6 +26,18 @@
     align-self: center;
 }
 
+.menu a{
+    text-decoration: none;
+    color: #1D3130;
+    transition: 0.2s;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color: #FF583E;
+    transition: 0.2s;
+}
+
 .select{
     display: flex;
     flex-direction: row;
@@ -42,7 +54,7 @@
 
 .menuCard{
     width: 214px;
-    height: 307px;
+    height: 312px;
     padding: 40px 25px 15px;
     text-align: center;
     display: flex;
@@ -55,7 +67,7 @@
 }
 
 .menuCard img{
-    margin: -112px 25px -1px 5px;
+    margin: -112px 25px 16px 5px;
 }
 
 .menuCardContent h3{

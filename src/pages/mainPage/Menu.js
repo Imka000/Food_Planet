@@ -44,7 +44,7 @@ const Menu = () => {
                     </select>
                 </div>
             </div>
-            <div className='container-card'>
+            <div className='global-container-cardProduct'>
                 {
                     menuCard.map((item,index)=>{
                         return(
@@ -59,7 +59,7 @@ const Menu = () => {
                     })
                 }
             </div>
-            <div className='container-card'>
+            <div className='global-container-cardProduct'>
                 {
                     menuCard2.map((item,index)=>{
                         return(

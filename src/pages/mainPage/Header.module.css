@@ -3,6 +3,16 @@
     margin: 0;
 }
 
+.dropdown-menu-header{
+    background-color: transparent;
+    color: #1D3130;
+    font: normal 600 16px 'Roboto';
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
 .logoImg{
     display: flex;
     margin-right: 100px;
@@ -20,14 +30,13 @@
     padding-top: 24px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: #1D3130;
     transition: 0.2s;
 }
 
-a:hover{
-    text-decoration: underline;
+header a:hover{
     color: #FF583E;
     transition: 0.2s;
 }

@@ -1,18 +1,13 @@
-.CartTitle{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 50px;
+.cartTitle h2{
+    font: normal 700 50px 'Roboto';
     line-height: 110%;
     text-align: center;
     color: #254F4C;
+    margin-top: 60px;
 }
 
-.CartDesc{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 20px;
+.cartTitle h3{
+    font: normal 600 20px 'Roboto';
     text-align: center;
     color: #254F4C;
 }
@@ -20,13 +15,12 @@
 .productTitle{
     display: flex;
     justify-content: center;
+    gap: 230px;
 }
 
 .productTitle p{
-    padding-right: 130px;
-    padding-left: 130px;
-    color: #254F4C;
-    font-size: 18px;
+    font: normal 16px 'Roboto';
+    color: #1D3130;
 }
 
 .Line{
@@ -38,113 +32,79 @@
 
 .productCart{
     display: flex;
-    gap: 175px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 20px;
-    text-align: center;
+    font: normal 20px 'Roboto';
     color: #254F4C;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+    margin-right: 90px;
 }
 
 .productCartImg{
     width: 100px;
-    padding-left: 270px;
 }
 
 .productCart span{
-    padding-left: 65px;
-    padding-top: 20px;
     color:  #FF583E;
-    font-size: 30px;
-}
-
-.productCart p{
-    position: relative;
-    right: 100px;
-    padding-top: 10px;
-}
-
-.productCartTotal{
-    padding-left: 45px;
-    position: relative;
-    bottom: 10px;
+    font-size: 28px;
 }
 
 .productCart button{
     border: none;
     background-color: transparent;
-    color:  #FF583E;
-    font-size: 30px;
-    padding-left: 60px;
 }
 
-.productCart b{
-    color: #254F4C;
-    font-size: 25px;
-    position: relative;
-    bottom: 2px;
+.productCart input{
+    border: 1px solid #bdbcbc;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 15px;
+    margin-right: 100px;
 }
 
-.productCartClose{
-    font-size: 25px;
-    position: relative;
-    top: 5px;
-    right: 75px;
+.productCartTotal{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .cartTotal{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 700px;
 }
 
 .cartTotal h3{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 30px;
+    font: normal 30px 'Roboto';
     color: #254F4C;
-    position: absolute;
-    right: 350px;
-    padding-top: 10px;
-}
-
-.cartTotal p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 30px;
-    color: #254F4C;
-    position: absolute;
-    right: 200px;
-    padding-top: 10px;
 }
 
 .linkTotal a{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 20px;
+    font: normal 20px 'Roboto';
     color: #FF583E;
-    position: absolute;
-    left: 200px;
-    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-right: 900px;
 }
 
 .cartTotal button{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 20px;
+    font: normal 20px 'Roboto';
     width: 300px;
     height: 48px;
     color: #FFFFFF;
     background-color: #FF583E;
     border: 1px solid #FF583E;
     border-radius: 5px;
-    position: absolute;
-    right: 170px;
-    margin-top: 110px;
+    transition: 0.3s;
 }
 
-
+.cartTotal button:hover{
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px black;
+}

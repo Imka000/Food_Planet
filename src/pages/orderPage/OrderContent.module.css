@@ -1,25 +1,24 @@
 .orderContent{
     display: flex;
+    box-sizing: border-box;
 }
 
 .orderContentTitle{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 40px;
-    line-height: 110%;
+    font: normal 40px 'Roboto';
     color: #254F4C;
-    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    margin-right: 750px;
+    margin-top: 80px;
 }
 
 .orderContentInput{
-    padding-top: 100px;
-    position: absolute;
-    right: 580px;
-    top: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .contentInput{
+    max-width: 300px;
     border: 1px solid #d2d2d7;
     padding: 15px 230px 15px 15px;
     border-radius: 5px;
@@ -36,193 +35,128 @@
 }
 
 .productContent h3{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 110%;
+    font: normal 26px 'Roboto';
     color: #254F4C;
-    padding-left: 100px;
-}
-
-.productContent{
-    position: relative;
-    top: 250px;
-    right: 480px;
+    display: flex;
+    justify-content: center;
+    margin-right: 900px;
 }
 
 .productTitle{
     display: flex;
     justify-content: center;
+    gap: 90px;
 }
 
 .productTitle p{
-    padding-right: 80px;
-    padding-left: 130px;
-    color: #254F4C;
-    font-size: 18px;
+    font: normal 16px 'Roboto';
+    color: #1D3130;
 }
 
 .Line{
     color: #3B7976;
-    width: 950px;
+    max-width: 750px;
     border: 1px solid #3B7976;
     background-color: #3B7976;
 }
 
 .productOrder{
     display: flex;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 20px;
-    text-align: center;
+    font: normal 20px 'Roboto';
     color: #254F4C;
-    position: relative;
-    right: 150px;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    margin-right: 100px;
 }
 
 .productOrderImg{
     width: 100px;
-    padding-left: 250px;
 }
 
-.productOrder span{
-    padding-top: 20px;
-    color:  #FF583E;
-    font-size: 30px;
-    padding-left: 30px;
-}
-
-.productOrder p{
-    position: relative;
-    left: 210px;
-    padding-top: 10px;
-}
-
-.productOrderTotal{
-    padding-left: 150px;
-    position: relative;
-    bottom: 12px;
-}
-
-.productOrderBtn{
-    border: none;
-    background-color: transparent;
-    color:  #FF583E;
-    font-size: 30px;
-    padding-left: 217px;
-}
-
-.productOrder b{
-    color: #254F4C;
-    font-size: 25px;
-    position: relative;
-    bottom: 2px;
-}
-
-.productOrderClose {
-    font-size: 25px;
-    border: none;
-    background-color: transparent;
-    color:  #FF583E;
-    position: relative;
-    right: 30px;
-    top: 5px;
+.confirmOrderCard{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .confirmOrder{
     width: 300px;
-    background-color: #EBF1FA;
+    background-color: #254F4C;
     height: 500px;
     padding: 25px;
-    position: absolute;
-    right: 100px;
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
+}
+
+.confirmOrder p{
+    margin-top: 20px;
 }
 
 .confirmOrderTitle{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 24px;
-    color: #254F4C;
+    font: normal 24px 'Roboto';
+    color: #FFF;
 }
 
 .confirmOrder input{
-    border: 1px solid #d2d2d7;
+    border: 1px solid transparent;
     padding: 15px 40px 15px 15px;
     border-radius: 5px;
-    margin-top: 8px;
-    margin-right: 5px;
+    margin-right: 25px;
     font-size: 15px;
-    opacity: 80%;
 }
 
 .confirmOrderTotal{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 22px;
-    color: #254F4C;
+    font: normal 22px 'Roboto';
+    color: #FFF;
 }
 
 .confirmOrderProduct{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 18px;
-    color: #254F4C;
+    font: normal 18px 'Roboto';
+    color: #FFF;
 }
 
 .confirmOrderPay{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 18px;
-    color: #254F4C;
+    font: normal 18px 'Roboto';
+    color: #FFF;
 }
 
 .confirmOrder span{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    color: #2B4241;
+    font: normal 300 24px 'Roboto';
+    color: #FFF;
+    display: flex;
+    justify-content: flex-end;
     position: relative;
-    bottom: 50px;
-    left: 220px;
+    bottom: 40px;
 }
 
 .confirmOrderBtn{
     font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
     color: #FFFFFF;
-    background: #5E8BCE;
+    background: #FF583E;
     border-radius: 3px;
     border: none;
-    width: 300px;
-    height: 40px;
+    height: 30px;
     transition: 0.3s;
     padding: 10px;
-    position: relative;
-    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .confirmOrderBtn:hover{
     transition: 0.3s;
-    height: 45px;
-    font-size: 26px;
-    width: 310px;
-    border-radius: 10px;
-    background-color: #427ed7;
+    border-radius: 12px;
+    background-color: #ff3615;
+    box-shadow: 0px 0px 4px 0px #a1a1a1;
 }
 
 .confirmOrderText{
     font-family: 'Roboto';
     font-style: normal;
+    color: #FFF;
 }
 
 .link{
@@ -240,16 +174,16 @@
 }
 
 .delivery{
-    padding-top: 280px;
-    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    margin-right: 530px;
+    margin-top: 20px;
 }
 
 .delivery h3{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 24px;
+    font: normal 24px 'Roboto';
     color: #254F4C;
+    padding-bottom: 20px;
 }
 
 .deliveryLabel{
@@ -257,14 +191,10 @@
     padding: 15px 230px 15px 15px;
     border-radius: 5px;
     transition: 0.3s;
-    margin-top: 8px;
-    margin-right: 5px;
     opacity: 80%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 16px;
+    font: normal 16px 'Roboto';
     color: #000;
+    margin-right: 5px;
 }
 
 .deliveryLabel:hover{
@@ -274,7 +204,7 @@
 
 .delivery select{
     border: 1px solid #d2d2d7;
-    padding: 15px 233px 15px 15px;
+    padding: 15px 230px 15px 15px;
     border-radius: 5px;
     margin-top: 20px;
     margin-right: 5px;
@@ -287,10 +217,10 @@
 
 .delivery input{
     border: 1px solid #d2d2d7;
-    padding: 15px 233px 15px 15px;
+    padding: 15px 230px 15px 15px;
     border-radius: 5px;
-    margin-top: 20px;
-    margin-right: 5px;
+    margin-top: 10px;
+    margin-right: 7px;
     opacity: 80%;
     font-family: 'Roboto';
     font-style: normal;
@@ -299,7 +229,9 @@
 }
 
 .payment{
-    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .payment h3{
@@ -308,9 +240,11 @@
     font-style: normal;
     font-size: 24px;
     color: #254F4C;
+    padding-bottom: 20px;
 }
 
 .paymentLabel{
+    max-width: 350px;
     border: 1px solid #d2d2d7;
     padding: 15px 100px 15px 15px;
     border-radius: 5px;
@@ -328,35 +262,15 @@
     box-shadow: 2px 2px 2px 2px #ebf1fa;
 }
 
-.paymentLabel2{
-    border: 1px solid #d2d2d7;
-    padding: 15px 100px 15px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
-    margin-right: 5px;
-    position: relative;
-    top: 38px;
-    opacity: 80%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-style: normal;
-    font-size: 16px;
-    color: #000;
-}
-
-.paymentLabel2:hover{
-    transition: 0.3s;
-    box-shadow: 2px 2px 2px 2px #ebf1fa;
-}
-
 .comment{
-    padding-top: 80px;
-    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    margin-right: 130px;
+    margin-top: 50px;
 }
 
 .comment h3{
     font-family: 'Roboto';
-    font-style: normal;
     font-style: normal;
     font-size: 24px;
     color: #254F4C;

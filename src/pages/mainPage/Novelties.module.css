@@ -26,10 +26,22 @@
     align-self: center;
 }
 
+.novelties a{
+    text-decoration: none;
+    color: #1D3130;
+    transition: 0.2s;
+}
 
-.noveltiesCard{
+.novelties a:hover{
+    text-decoration: underline;
+    color: #FF583E;
+    transition: 0.2s;
+}
+
+
+.noveltiesCardFoodProduct{
     width: 214px;
-    height: 291px;
+    height: 295px;
     padding: 40px 25px 15px;
     text-align: center;
     display: flex;
@@ -39,11 +51,11 @@
     border-radius: 40px;
 }
 
-.noveltiesCard img{
-    margin: -112px 25px -1px 5px;
+.noveltiesCardFoodProduct img{
+    margin: -112px 25px 16px 5px;
 }
 
-.noveltiesCardContent h3{
+.noveltiesCardContentProduct h3{
     font: normal 700 20px 'Roboto';
     line-height: 23px;
     color: #FFFFFF;
@@ -61,12 +73,12 @@
     margin: 0;
 }
 
-.noveltiesCardContent span{
+.noveltiesCardContentProduct span{
     color:  #FF583E;
     font-size: 32px;
 }
 
-.noveltiesCardContent b{
+.noveltiesCardContentProduct b{
     font: normal 400 18px 'Roboto';
     line-height: 18px;
     color: #FFFFFF;

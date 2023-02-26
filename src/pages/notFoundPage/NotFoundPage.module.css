@@ -1,6 +1,5 @@
 .container{
     display: flex;
-    margin: 0 auto;
     justify-content: center;
     width: 100%;
 }
@@ -39,7 +38,6 @@
     background-color: #254F4C;
     color: #FFFFFF;
     border-radius: 25px;
-    border-color: #254F4C;
     padding: 10px;
     border: 1px solid #254F4C;
     width: 250px;
